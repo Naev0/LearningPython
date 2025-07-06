@@ -11,7 +11,7 @@ def SkeletonFight():
     userInput = input()
     if userInput == "fight":
       if weapon:
-        print("You kill the goul with the knife you found earlier. After moving forward, you find one of the exits. Congats!")
+        print("You kill the skeletons with the knife you found earlier. After moving forward, you find one of the exits. Congats!")
         quit()
       else:
         print("They will never find your body...")
